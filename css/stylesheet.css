@@ -1,0 +1,22 @@
+.customHeader {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding-top: 1rem !important;
+    /* padding-bottom: 1rem!important; */
+}
+
+.section-bg {
+    background-color: #eee;
+    padding: 150px 0 150px 0;
+}
+
+.nav {
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #01B1FE;
+}
